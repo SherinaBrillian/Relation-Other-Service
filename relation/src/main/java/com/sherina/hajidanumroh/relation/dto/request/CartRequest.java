@@ -12,7 +12,7 @@ public class CartRequest {
     private String customerUid;
     private String productUid;
     private String priceUid;
-    private String qty;
+    private long qty;
     private String serviceUid;
     private String createdAt;
     private String updatedAt;

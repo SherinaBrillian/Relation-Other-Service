@@ -1,5 +1,9 @@
 package com.sherina.hajidanumroh.relation.dto.response;
 
-public class CartListResponse {
+import java.util.List;
+
+import com.sherina.hajidanumroh.relation.dto.CartResponseModel;
+
+public class CartListResponse extends WebResponse<List<CartResponseModel>>{
     
 }

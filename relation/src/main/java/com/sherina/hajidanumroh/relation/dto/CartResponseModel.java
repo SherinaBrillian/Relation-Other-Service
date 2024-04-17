@@ -1,5 +1,7 @@
 package com.sherina.hajidanumroh.relation.dto;
 
+import com.sherina.hajidanumroh.relation.model.CustomerModel;
+
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -9,7 +11,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class CartResponseModel {
     private String cartUid;
-    private String customerUid;
+    private CustomerModel customer;
     private String productUid;
     private String priceUid;
     private String qty;

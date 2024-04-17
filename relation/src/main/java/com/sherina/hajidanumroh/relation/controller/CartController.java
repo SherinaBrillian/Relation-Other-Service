@@ -17,7 +17,7 @@ import com.sherina.hajidanumroh.relation.dto.response.WebResponseBase;
 import com.sherina.hajidanumroh.relation.service.impl.CartServiceImpl;
 
 @RestController
-@RequestMapping("api/v1/cart")
+@RequestMapping("api/v1/Cart")
 public class CartController {
     @Autowired
     CartServiceImpl cartRepo;
